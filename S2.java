@@ -1,12 +1,12 @@
 import java.util.*;
-public class Day1{
+public class S2{
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
-        int i;
-        System.out.println("Enter integer:");
-        i=sc.nextInt();
-        for(int j=1;j<=i;j++){
-            for(int k=1;k<=j;k++){
+        int a;
+        System.out.println("Enter a integer:");
+        a=sc.nextInt();
+        for(int i=1;i<=a;i++){
+            for(int j=a;j>=i;j--){
                 System.out.print("*");
             }
             System.out.println("");
@@ -16,3 +16,4 @@ public class Day1{
 
     }
 }
+
